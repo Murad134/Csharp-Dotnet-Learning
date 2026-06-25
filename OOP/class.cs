@@ -5,6 +5,7 @@ namespace MyAplication
     {
         public string name;
         public int age;
+        // method to display student information
         public void display()
         {
             Console.WriteLine($"My name is : {name} and my age is : {age} years old");
@@ -18,7 +19,6 @@ namespace MyAplication
             Student student2= new Student();
             student2.name="Adiba Rahaman";
             student2.age=23;
-
 
             student1.display();
             student2.display();
