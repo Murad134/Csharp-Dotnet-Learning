@@ -12,7 +12,6 @@ namespace MyAplication
             {
                 Console.WriteLine(num + " * " + i + " = " + (num * i));
             }
-            
         }
     }
 }
